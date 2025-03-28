@@ -1,12 +1,18 @@
 ﻿using System;
 
 
-class Program  // Renamed 'Main' to 'Program'
+class Program  
 {
     static void Main(string[] args)
     {
-        Console.Write("Enter a number: ");
-        int num = int.Parse(Console.ReadLine()); // Convert input to integer
+        Console.WriteLine("Enter the Number: ");
+        string? input = Console.ReadLine(); // Read input as a nullable string
+
+        if (!int.TryParse(input, out int num) || num <= 0) // Check for valid number
+        {
+            Console.WriteLine("Input should be a valid positive integer.");
+            return;
+        }
         int fact = Factorial(num);
         Console.WriteLine($"Factorial of {num} is: {fact}");
     }

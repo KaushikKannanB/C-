@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C-\\task1\\FactorialApp\\FactorialApp.csproj",
+      "projectUniqueName": "D:\\C-\\task1\\FactorialApp.csproj",
       "projectName": "FactorialApp",
-      "projectPath": "D:\\C-\\task1\\FactorialApp\\FactorialApp.csproj",
+      "projectPath": "D:\\C-\\task1\\FactorialApp.csproj",
       "packagesPath": "C:\\Users\\kaush\\.nuget\\packages\\",
-      "outputPath": "D:\\C-\\task1\\FactorialApp\\obj\\",
+      "outputPath": "D:\\C-\\task1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kaush\\AppData\\Roaming\\NuGet\\NuGet.Config"
